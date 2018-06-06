@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="todo"
+    errors="1" failures="1" hostname="" id="" package="todo" skipped="0"
+    tests="1" time="12.32" timestamp="Wed, 30 May 2018 10:07:17 GMT">
+  
+    <testcase name="Demo test todo-list" classname="todo" time="12.32" assertions="2">
+
+      <failure message="Testing if element &lt;.total-items&gt; contains text: &#34;共有2个&#34;. Element could not be located.">    at Object.Demo test todo-list (C:\Program Files\Git\react-todo-app\test\e2e\todo.js:13:15)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;.total-items&#34; using: css selector
+    at F.command (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\api\assertions\containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\core\assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.traverse (C:\Program Files\Git\react-todo-app\node_modules\nightwatch\lib\core\queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
